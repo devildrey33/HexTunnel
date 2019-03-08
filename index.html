@@ -1,0 +1,33 @@
+<!-- 
+    Tunel hexadecimal. Creado por Josep Antoni Bover pare devildrey33.es el 06/04/2017
+
+        Vista por defecto en el Laboratorio de pruebas  
+		devildrey33_Lab->Opciones->Vista = Preview;
+
+        Ultima modificación el 15/05/2017
+            En Firefox va bastante lento ya que tarda mas en actualizar las texturas... una pena...
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <title>Experimento con Three.js 'Hex Tunnel'</title>
+        <!-- Estilos CSS para el test -->
+        <link rel='stylesheet' href='/ObjetoCanvas/CSS/ObjetoCanvas.css' />        
+        <!-- Fuente Nova monospace -->
+        <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">        
+        
+        
+        <!-- Three.JS -->
+        <script src="/ObjetoCanvas/JS/three.min.js"></script>
+
+        <!-- ObjetoCanvas similar al ObjetoBanner para testear Banners -->
+        <script src="/ObjetoCanvas/JS/ObjetoCanvas.js"></script>
+        <script src="HexTunnel.js"></script>
+
+    </head>
+    <body>
+        <!-- Fix para mostrar la fuente Nova Mono correctamente en el primer pintado del canvas -->
+        <div style='font-family:Nova Mono; position:fixed; top:-200px'>NovaMonoFix</div>
+    </body>
+</html>
